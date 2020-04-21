@@ -1,0 +1,65 @@
+ant -f "F:\\Raad\\BRAC\\BRAC\\Semester 4\\CSE220\\Assignments\\Assignment06\\Stack & Queue Implementation Student" -Dnb.internal.action.name=run.single -Djavac.includes=QueueTester.java -Drun.class=QueueTester run-single
+init:
+Deleting: F:\Raad\BRAC\BRAC\Semester 4\CSE220\Assignments\Assignment06\Stack & Queue Implementation Student\build\built-jar.properties
+deps-jar:
+Updating property file: F:\Raad\BRAC\BRAC\Semester 4\CSE220\Assignments\Assignment06\Stack & Queue Implementation Student\build\built-jar.properties
+Compiling 1 source file to F:\Raad\BRAC\BRAC\Semester 4\CSE220\Assignments\Assignment06\Stack & Queue Implementation Student\build\classes
+warning: [options] bootstrap class path not set in conjunction with -source 8
+1 warning
+compile-single:
+run-single:
+---------Array Queue----------
+view: B R A C U null 
+size: 5
+peek: B
+deque: B
+peek: R
+deque: R
+view: null null A C U null 
+view: A N A C U B 
+peek: A
+deque: A
+peek: C
+deque: C
+peek: U
+deque: U
+peek: B
+deque: B
+view: A N null null null null 
+peek: A
+deque: A
+peek: N
+deque: N
+view: null null null null null null 
+-------Array Queue End-----------
+
+
+
+---------List Queue----------
+view: [ B R A C U ]
+size: 5
+peek: B
+deque: B
+peek: R
+deque: R
+view: [ A C U ]
+view: [ A C U B A N ]
+peek: A
+deque: A
+peek: C
+deque: C
+peek: U
+deque: U
+peek: B
+deque: B
+view: [ A N ]
+peek: A
+deque: A
+peek: N
+deque: N
+view: [ ]
+-------List Queue End-----------
+
+
+
+BUILD SUCCESSFUL (total time: 1 second)
